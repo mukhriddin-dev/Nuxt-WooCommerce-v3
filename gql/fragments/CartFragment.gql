@@ -1,0 +1,50 @@
+fragment CartFragment on Cart {
+  total
+  subtotal
+  totalTax
+  discountTotal
+  shippingTotal
+  chosenShippingMethods
+  availableShippingMethods {
+    rates {
+      cost
+      id
+      label
+    }
+  }
+  appliedCoupons {
+    description
+    discountTax
+    discountAmount
+    code
+  }
+  isEmpty
+  contents {
+    itemCount
+    productCount
+    nodes {
+      quantity
+      key
+      product {
+        node {
+          name
+          slug
+          sku
+          databaseId
+          type
+          ...SimpleProduct
+          ...VariableProduct
+        }
+      }
+      variation {
+        node {
+          name
+          price
+          image {
+            sourceUrl(size: THUMBNAIL)
+          }
+        }
+      }
+    }
+  }
+}

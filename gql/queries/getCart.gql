@@ -1,0 +1,24 @@
+query getCart {
+  cart {
+    ...CartFragment
+  }
+  customer {
+    ...CustomerFragment
+  }
+  viewer {
+    lastName
+    email
+    databaseId
+    id
+    firstName
+    username
+    nicename
+    wooSessionToken
+  }
+  paymentGateways {
+    nodes {
+      title
+      id
+    }
+  }
+}

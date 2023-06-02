@@ -1,0 +1,71 @@
+fragment VariableProduct on VariableProduct {
+  price
+  rawPrice: price(format: RAW)
+  slug
+  description
+  shortDescription
+  weight
+  length
+  width
+  height
+  image {
+    sourceUrl
+    cartSourceUrl: sourceUrl(size: THUMBNAIL)
+    altText
+    title
+  }
+  averageRating
+  reviewCount
+  regularPrice
+  rawRegularPrice: regularPrice(format: RAW)
+  salePrice
+  rawSalePrice: salePrice(format: RAW)
+  stockStatus
+  totalSales
+  stockQuantity
+  attributes {
+    nodes {
+      name
+      options
+      variation
+      visible
+    }
+  }
+  defaultAttributes {
+    nodes {
+      name
+      attributeId
+    }
+  }
+  variations {
+    nodes {
+      name
+      databaseId
+      price
+      regularPrice
+      salePrice
+      slug
+      stockQuantity
+      stockStatus
+      hasAttributes
+      image {
+        sourceUrl
+        cartSourceUrl: sourceUrl(size: THUMBNAIL)
+        altText
+        title
+        id
+      }
+      attributes {
+        nodes {
+          value
+          name
+        }
+      }
+    }
+  }
+  galleryImages {
+    nodes {
+      sourceUrl
+    }
+  }
+}
