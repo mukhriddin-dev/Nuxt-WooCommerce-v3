@@ -13,5 +13,6 @@ const { theList } = useWishlist();
         <p>{{ $t('messages.shop.wishlistNoItems') }}</p>
       </div>
     </client-only>
+    <!-- okay  -->
   </div>
 </template>
