@@ -1,3 +1,4 @@
+<img width="1200" alt="image" src="https://github.com/mukhriddin-dev/Nuxt-WooCommerce-v3/assets/66181316/5c01fd87-246f-4d3e-bb96-2bde0a114f32">
 
 
 # Next Generation Front-End for WooCommerce
