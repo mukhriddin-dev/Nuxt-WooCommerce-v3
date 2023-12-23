@@ -2,13 +2,11 @@
 
 # Next Generation Front-End for WooCommerce
 
-> **Note** This is the first iteration of the new WooNuxt built on Nuxt 3. It's under active development and has a lot of features still to be added. You can use the old version of WooNuxt on the which is more stable.
 
-&nbsp;
 
 ## Introduction
 
-The goal of WooNuxt is to provide a modern, fast, and SEO friendly front-end for WooCommerce. It's built on top of Nuxt 3 and uses the WPGraphQL API to retrieve all the data it needs. It's also fully customizable and can be extended with your own components and modules. You can see a live demo of WooNuxt by clicking the button below.
+The goal of Nuxt is to provide a modern, fast, and SEO friendly front-end for WooCommerce. It's built on top of Nuxt 3 and uses the WPGraphQL API to retrieve all the data it needs. It's also fully customizable and can be extended with your own components and modules. You can see a live demo of WooNuxt by clicking the button below.
 
 
 
@@ -17,11 +15,11 @@ The goal of WooNuxt is to provide a modern, fast, and SEO friendly front-end for
 ## Get Started
 
 - Download the plugin.
-- Install and activate the plugin on your WordPress site. This will install all the required plugins for WooNuxt, add some useful fields to the WPGraphQL schema, and automatically retrieve the WooCommerce payment gateway settings for Stripe and PayPal.
+- Install and activate the plugin on your WordPress site. This will install all the required plugins for Nuxt, add some useful fields to the WPGraphQL schema, and automatically retrieve the WooCommerce payment gateway settings for Stripe and PayPal.
 - Once the plugin is activated your ready to deploy WooNuxt on a whatever hosting you like, or click one onf the fast deploy button below.
 - Once the plugin is activated the only required environment variable is `GQL_HOST`. Checkout the .env.example file for more details.
 
-[![button](https://user-images.githubusercontent.com/5116925/218880214-a16287a7-fd8c-4299-9e65-0871136f0771.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scottyzen/woonuxt)
+
 
 &nbsp;
 
