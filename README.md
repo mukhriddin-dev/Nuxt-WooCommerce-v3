@@ -1,4 +1,4 @@
-![full](https://user-images.githubusercontent.com/5116925/218879668-f4c1f9fd-bef4-44b0-bc7f-e87d994aa3a1.png)
+
 
 # Next Generation Front-End for WooCommerce
 
